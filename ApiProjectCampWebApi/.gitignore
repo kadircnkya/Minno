@@ -1,0 +1,54 @@
+## Build results
+bin/
+obj/
+out/
+publish/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider / VS Code
+.idea/
+.vscode/
+
+## Logs
+*.log
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## IIS / Web
+wwwroot/lib/
+wwwroot/dist/
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+.nuget/
+
+## DotNet Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Resharper
+_ReSharper*/
+*.DotSettings.user
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## Environment / Secrets
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+## EF Core
+Migrations/*.Designer.cs
